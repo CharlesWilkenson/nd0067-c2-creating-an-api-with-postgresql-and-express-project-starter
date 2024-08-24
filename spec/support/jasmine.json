@@ -1,7 +1,13 @@
 {
   "spec_dir": "spec",
   "spec_files": [
-    "../**/tests/*[s]pec.ts"
+    "../**/tests/services/*[s]pec.ts",
+    "../**/tests/endpoints/*[s]pec.ts"
+  ],
+
+  "jasmineExplorer.nodeArgv": [
+    "--require", "ts-node/register",
+    "--require", "tsconfig-paths/register"
   ],
   "helpers": [
     "helpers/**/*.js"
@@ -15,5 +21,6 @@
     }
   ],
   "stopSpecOnExpectationFailure": false,
-  "random": true
+  "random": false
 }
+

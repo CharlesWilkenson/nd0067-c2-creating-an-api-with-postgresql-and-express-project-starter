@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "database": "storeDB",
+    "user": "uda_user",
+    "password": "password123"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "port": "5433",
+    "database": "testDB",
+    "user": "uda_user_test",
+    "password": "test123"
+  }
+}

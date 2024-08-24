@@ -1,0 +1,1 @@
+DROP TABLE orderdetails, orders, product, category, users;
